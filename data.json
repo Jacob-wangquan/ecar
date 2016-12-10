@@ -1,0 +1,78 @@
+{
+  "store": [
+    {
+      "name": "康盛别克4S店",
+      "address": "杭州市拱墅区拱康路18号",
+      "price": 188,
+      "image": "static/images/store/01.jpg"
+    },
+    {
+      "name": "康盛别克4S店",
+      "address": "杭州市拱墅区拱康路18号",
+      "price": 188,
+      "image": "static/images/store/01.jpg"
+    },
+    {
+      "name": "康盛别克4S店",
+      "address": "杭州市拱墅区拱康路18号",
+      "price": 188,
+      "image": "static/images/store/01.jpg"
+    },
+    {
+      "name": "康盛别克4S店",
+      "address": "杭州市拱墅区拱康路18号",
+      "price": 188,
+      "image": "static/images/store/01.jpg"
+    },
+    {
+      "name": "康盛别克4S店",
+      "address": "杭州市拱墅区拱康路18号",
+      "price": 188,
+      "image": "static/images/store/01.jpg"
+    },
+    {
+      "name": "康盛别克4S店",
+      "address": "杭州市拱墅区拱康路18号",
+      "price": 188,
+      "image": "static/images/store/01.jpg"
+    },
+    {
+      "name": "康盛别克4S店",
+      "address": "杭州市拱墅区拱康路18号",
+      "price": 188,
+      "image": "static/images/store/01.jpg"
+    },
+    {
+      "name": "康盛别克4S店",
+      "address": "杭州市拱墅区拱康路18号",
+      "price": 188,
+      "image": "static/images/store/01.jpg"
+    },
+    {
+      "name": "康盛别克4S店",
+      "address": "杭州市拱墅区拱康路18号",
+      "price": 188,
+      "image": "static/images/store/01.jpg"
+    },
+    {
+      "name": "康盛别克4S店",
+      "address": "杭州市拱墅区拱康路18号",
+      "price": 188,
+      "image": "static/images/store/01.jpg"
+    }
+  ],
+  "news": [
+    {
+      "title": "机油真的能‘包治百病’吗？",
+      "count": 64,
+      "image": "static/images/news/01.jpg",
+      "text": "发过个非官方个非官方个非官方个法师的法师法师法师的水电费第三方第三方"
+    }
+  ],
+  "mine": [
+    {
+      "name": "汪全海",
+      "car": "奥迪A6"
+    }
+  ]
+}

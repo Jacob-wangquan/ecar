@@ -14,6 +14,31 @@ var port = process.env.PORT || config.dev.port
 var proxyTable = config.dev.proxyTable
 
 var app = express()
+// 读取数据
+var appData = require('../data.json')
+var store = appData.store;
+var news = appData.news;
+var mine = appData.mine;
+var apiRoutes = express.Router();
+apiRoutes.get('/store',function (req,res) {
+  res.json({
+    errno:0,
+    data:store
+  });
+});
+apiRoutes.get('/news',function (req,res) {
+  res.json({
+    errno:0,
+    data:news
+  });
+});
+apiRoutes.get('/mine',function (req,res) {
+  res.json({
+    errno:0,
+    data:mine
+  });
+});
+app.use('/api',apiRoutes);
 var compiler = webpack(webpackConfig)
 
 var devMiddleware = require('webpack-dev-middleware')(compiler, {
